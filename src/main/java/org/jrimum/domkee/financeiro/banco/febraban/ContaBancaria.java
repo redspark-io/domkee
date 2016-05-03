@@ -89,6 +89,8 @@ public class ContaBancaria {
 	 */
 	private Modalidade modalidade;
 	
+	private CodigoCedente codigoCedente;
+	
 	
 	public ContaBancaria() {}
 	
@@ -191,6 +193,14 @@ public class ContaBancaria {
 
 	public void setModalidade(Modalidade modalidade) {
 		this.modalidade = modalidade;
+	}
+
+	public CodigoCedente getCodigoCedente() {
+	  return codigoCedente;
+	}
+	
+	public void setCodigoCedente(CodigoCedente codigoCedente) {
+	  this.codigoCedente = codigoCedente;
 	}
 
 	@Override
